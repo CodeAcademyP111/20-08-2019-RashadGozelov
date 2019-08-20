@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20190820201243_CreateOurRoomTable.cs" />
+    <Compile Remove="Migrations\20190820201243_CreateOurRoomTable.Designer.cs" />
+    <Compile Remove="Migrations\20190820224049_CreateOurNewsTable.cs" />
+    <Compile Remove="Migrations\20190820224049_CreateOurNewsTable.Designer.cs" />
+    <Compile Remove="Migrations\20190820224415_CreateOurNewsTableImageOpenField.cs" />
+    <Compile Remove="Migrations\20190820224415_CreateOurNewsTableImageOpenField.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
+  </ItemGroup>
+
+</Project>
